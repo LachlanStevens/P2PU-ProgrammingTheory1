@@ -1,0 +1,14 @@
+/*
+* Expressions - Source P2Pu https://p2pu.org/en/courses/1079/content/2283/
+* Author: Lachlan Stevens
+* Date of completion: August 26, 2014
+*/
+
+1.
+	Not expression, due to it containing two boolean operators
+2.
+	Is expression
+3.
+	Not expression, due to it not containing an operator
+4.
+	Not expression, is a function and doesnt withhold the Variable/Literal --> Operator --> Variable/Litteral methodology

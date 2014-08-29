@@ -1,0 +1,21 @@
+/*
+* Variables - Source P2Pu https://p2pu.org/en/courses/1079/content/2276/
+* Author: Lachlan Stevens
+* Date of completion: August 1, 2014
+*/
+
+1. 
+	firstNumber = int(raw_input("Enter First Number: "))
+	secondNumber = int(raw_input("Enter Second Number: "))
+	
+	answer = firstNumber + secondNumber
+	
+	print "%d + %d = %d" % (firstNumber, secondNumber, answer)
+	
+2.
+	firstPetName = raw_input("Enter first pet name: ")
+	makeFirstCar = raw_input("Enter make of first car: ")
+	
+	stageName = firstPetName + makeFirstCar
+	
+	print "Your stage name is %s" % (stageName)

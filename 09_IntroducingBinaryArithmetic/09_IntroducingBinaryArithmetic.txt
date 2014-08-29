@@ -1,0 +1,49 @@
+/*
+* Introducing Binary Arithmetic - Source P2Pu https://p2pu.org/en/courses/1079/content/2282/
+* Author: Lachlan Stevens
+* Date of completion: August 26, 2014
+*/
+
+1.
+	a AND [b OR NOT a OR NOT b] AND c
+	1 AND [1 OR NOT 1 OR NOT 1] AND 0
+	1 AND [1 OR 0 OR 0] AND 0
+	1 AND 1 AND 0
+	1 AND 0
+
+	0
+
+2.
+	b AND NOT c
+	1 AND NOT 0
+	1 AND 1
+
+	1
+
+3.
+	b AND NOT b
+	1 AND NOT 1
+	1 AND 0
+
+	0
+
+4.
+	b OR NOT b
+	1 OR NOT 1
+	1 OR 0
+
+	1
+
+5.
+	c OR NOT c
+	0 OR NOT 0
+	0 OR 1
+
+	1
+
+6.
+	c AND NOT c
+	0 AND NOT 0
+	0 AND 1
+
+	0

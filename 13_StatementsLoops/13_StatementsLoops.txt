@@ -1,0 +1,30 @@
+/*
+* Statements: Loops - Source P2Pu https://p2pu.org/en/courses/1079/content/2286/
+* Author: Lachlan Stevens
+* Date of completion: August 26, 2014
+*/
+
+1.
+	For a guessing game a while loop would be used due to us not wanting to limit the amount of guesses.
+2.
+	from random import randint
+
+	randNum = randint(1,99)
+	userInput = 0
+	guessCount = 0
+
+	print "Welcome to a guessing game."
+
+
+	while(userInput != randNum):
+		userInput = int(raw_input("Enter guess: "))
+		if(userInput < 0 or userInput > 100):
+			print "Sorry, that number is out of range. Please enter between 0 and 100."
+		else:
+			if(userInput < randNum):
+				print "Oh try again, maybe a little higher?"
+			if(userInput > randNum):
+				print "Hmm, Maybe lower?"
+		guessCount = guessCount + 1
+
+	print "Congratulations! you correctly guessed the number %d. It took you %d tries." % (randNum, guessCount)

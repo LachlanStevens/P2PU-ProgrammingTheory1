@@ -1,0 +1,35 @@
+/*
+* Writing a Program - Source P2PU: https://p2pu.org/en/courses/1079/content/2288/
+* Author: Lachlan Stevens
+* Date of completion: August 26, 2014
+*/
+
+1.
+	def fibonacciGenerator():
+		currentVal = 1
+		secondVal = 0
+		total = 0
+		while (currentVal < 4000000):
+			currentVal = currentVal + secondVal
+			secondVal = currentVal - secondVal
+			if(isEven(currentVal)):
+				total = total + currentVal
+			else:
+				# Do nothing
+				total = total
+		return total
+
+	def isEven(number):
+		returnVal = False
+		if(number % 2 == 0):
+			returnVal = True
+		else:
+			returnVal = False
+		return returnVal
+
+	def main():
+		total = fibonacciGenerator()
+		print total
+
+	if __name__ == '__main__':
+		main()

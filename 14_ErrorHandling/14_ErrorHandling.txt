@@ -1,0 +1,21 @@
+/*
+* Error Handling - Source P2Pu https://p2pu.org/en/courses/1079/content/2287/
+* Author: Lachlan Stevens
+* Date of completion: August 26, 2014
+*/
+
+1.
+	try:
+		answer = 5.00 * "Bubblegum"
+	except:
+		print "Error: Datatype Mismatch, Exiting..."
+2.
+	try:
+		num = null / 0
+	except:
+		print "Error: Null Undefined, Exiting..."
+3.
+	try:
+		some_value = 1239 / 0
+	except:
+		print "Error: Cannot divide by zero, Exiting..."

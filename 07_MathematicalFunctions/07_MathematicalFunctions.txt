@@ -1,0 +1,33 @@
+/*
+* Functions: A Mathematical Perspective - Source P2Pu https://p2pu.org/en/courses/1079/content/2280/
+* Author: Lachlan Stevens
+* Date of completion: August 26, 2014
+*/
+
+Part A:
+	1.
+		Basic Parabola
+	2.
+		Curve( Lowest point negative left, Highest point positive right)
+	3.
+		Reversed Basic Parabola
+	4.
+		Straight Line
+	5.
+		Hyperbola
+	6.
+		Split Curved Lines
+
+Part B:
+	1.
+		f(x) = 3
+	2.
+		f(y) = 5
+	3.
+		f(z) =3z + 7 
+	4.
+		A continuous function is when its' return values can be written on a graph without being able to lift your pen off the paper.
+	5.
+		Discrete data is where there is only a fininite of possible answers.
+	6.
+		An example of a datatype which contains discrete data is an Integer, while a datatype which holds continuous data is a float

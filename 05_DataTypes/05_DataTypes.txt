@@ -1,0 +1,25 @@
+/*
+* Data Types - Source P2PU: https://p2pu.org/en/courses/1079/content/2278/
+* Author: Lachlan Stevens
+* Date of completion: August 26, 2014
+*/
+
+1.
+	
+	x = 50 (int)
+
+	y = 1.5 (float)
+
+	x + y = z
+	50 + 1.5 = 51.5 (float)
+
+2.
+
+	When attempting to add a string to an integer an error gets thrown as shown below:
+		TypeError: unsupported operand type(s) for +: 'int' and 'str'
+	This is due to the datatypes being different.
+
+3. 
+
+	Lachlan: 
+		76 97 99 104 108 97 110

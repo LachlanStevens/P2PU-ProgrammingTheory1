@@ -1,0 +1,32 @@
+/*
+* Functions: A Computer Science Perspective - Source P2Pu https://p2pu.org/en/courses/1079/content/2281/
+* Author: Lachlan Stevens
+* Date of completion: August 26, 2014
+*/
+
+1.
+	def writeName(name):
+		return "Hello, " + name
+
+	enteredName = raw_input("Please enter your name: ")
+	print writeName(enteredName)
+
+2.
+	def f(x):
+	return x * 4
+
+	def g(x):
+	return x / 4
+
+	print g(f(5))
+
+	OUTPUT: 5
+
+3.
+	from datetime import date
+
+	def findYear(age):
+		return date.today().year - int(age)
+
+	enteredAge = raw_input("Please enter age: ")
+	print "You are estimated to be born on the year of: %s" % findYear(enteredAge)

@@ -1,0 +1,12 @@
+/*
+* Statements: Declarations and Assignments - Source P2Pu https://p2pu.org/en/courses/1079/content/2284/
+* Author: Lachlan Stevens
+* Date of completion: August 26, 2014
+*/
+
+1.
+	aBoolean = True
+2.
+	anArray = ["1", "two", "iii", "four", "5"]
+3.
+	anInteger = 42

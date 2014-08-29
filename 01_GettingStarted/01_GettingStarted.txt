@@ -1,0 +1,23 @@
+/*
+* Getting started - Source P2PU: https://p2pu.org/en/courses/1079/content/2291/
+* Author: Lachlan Stevens
+* Date of completion: July 24, 2014
+*/
+
+1: Open the command line, and execute the command "python -V" and paste the output in the comments bellow, along with the Operating system you are using (Windows, Mac, Linux).
+
+Windows
+python -V
+2.7.8
+
+2: On the command line, type echo %cd% (if you are running Windows), or pwd (if you are running Linux). What did the command show you, and why is this useful?
+
+pwd stands for Print Working Directory and displays the current working directory.
+
+3: On the command line, run the command "python -h". Find one option in the output list of "Options and arguments" which you find interesting. Google that option and explain, briefly, what that option does, and how to use it.
+
+Python -R:
+ Generates a random string at runtime of script. This is useful to generate a hash for a security program as of every runtime of the program the string is different.
+
+Python -O:
+ Optimizes the scripts' bytecode to perform more effectively at runtime.

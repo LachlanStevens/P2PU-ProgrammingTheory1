@@ -1,0 +1,22 @@
+/*
+* Overview of Computer Architecture - Source P2Pu https://p2pu.org/en/courses/1079/content/2275/
+* Author: Lachlan Stevens
+* Date of completion: July 28, 2014
+*/
+
+1. 
+	a) A PC is a acronym for the term (Personal Computer); This suggests usually that it is a computer used by one person at one time
+	b) A Laptop is a type of PC which is designed to be moved around and mobile, it is also noted that it is usually bigger than a tablet PC (refer below)
+	c) A Tablet PC is a type of computing device designed to be small and extremely mobile. They usually possess a touchscreen.
+	d) A Desktop PC is a pc designed for desktop computing; these PC's tend to be the most powerful due to it not having to be mobile.
+
+2. 
+	My computer is using 64-Bit Architecture which is found by using the windows shortcut "Windows Key" + "Pause" which opens the System Information dialog. 
+	Other ways to access this dialog is by right clicking "My Computer" while in Windows Explorer. 
+	When in this dialog next to the label "System Type" it displays your current computer architecture.
+
+3. 
+	My computer contains 4.00 GB of Physical Memory. This information is found in the same System Information Dialog as before except next to the label labelled as "Installed memory (RAM)"
+
+4.
+	My computer has 166 GB left on my C:\ Drive (Primary Drive). This information is found by going into Windows Explorer and looking at the "This PC" page; which is automatically shown by default on Windows 8 and upwards. 

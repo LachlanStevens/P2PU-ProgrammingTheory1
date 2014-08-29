@@ -1,0 +1,30 @@
+/*
+* Working with Arrays - Source P2Pu https://p2pu.org/en/courses/1079/content/2279/
+* Author: Lachlan Stevens
+* Date of completion: August 26, 2014
+*/
+
+1.
+	
+	animals = ['cat', 'dog', 'bird', 'mouse', 'horse']
+	animals.sort()
+	animals.reverse()
+
+2.
+	
+	numbers = [10, 11, 12, 13, 14, 15]
+	print id(numbers[0])
+	print id(numbers[1])
+	print id(numbers[2])
+	print id(numbers[3])
+	print id(numbers[4])
+	print id(numbers[5])
+	
+3. 
+	
+	fruit = ['apple', 'orange', 'pear']
+	veg = ['carrot', 'onion', 'lettuce']
+	all = fruit + veg
+	print all
+	
+	When joined into a new variable, the two variables concatenate.
